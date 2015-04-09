@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "npm-lookup",
+  "description": "looks up the highlighted word with npmjs.org search",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_icon": "npm-logo.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+
+}
